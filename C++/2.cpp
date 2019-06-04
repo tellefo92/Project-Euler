@@ -8,7 +8,7 @@ int main() {
 	int next = 0;
 	int sum = 0;
 
-	while (second < 4000000) {
+	while (current < 4000000) {
 		next = prev + current;
 		prev = current;
 		current = next;
@@ -19,3 +19,7 @@ int main() {
 	}
 	cout << sum << endl;
 }
+
+/*
+4613732
+*/
